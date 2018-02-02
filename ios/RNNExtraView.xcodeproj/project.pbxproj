@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		51E712E0202383C400DB9BC0 /* RNNExtraViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E712DF202383C400DB9BC0 /* RNNExtraViewWrapper.m */; };
-		51E712E220238B5500DB9BC0 /* RNNExtraViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E712E120238B5500DB9BC0 /* RNNExtraViewManager.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNNExtraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNExtraView.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		134814201AA4EA6300B7C361 /* libRNNExtraView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNNExtraView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E712DE202383AB00DB9BC0 /* RNNExtraViewWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNNExtraViewWrapper.h; sourceTree = "<group>"; };
 		51E712DF202383C400DB9BC0 /* RNNExtraViewWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNExtraViewWrapper.m; sourceTree = "<group>"; };
-		51E712E120238B5500DB9BC0 /* RNNExtraViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNExtraViewManager.m; sourceTree = "<group>"; };
-		51E712E320238B5F00DB9BC0 /* RNNExtraViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNNExtraViewManager.h; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNNExtraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNExtraView.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNNExtraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNExtraView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,8 +57,6 @@
 				51E712DF202383C400DB9BC0 /* RNNExtraViewWrapper.m */,
 				B3E7B5881CC2AC0600A0062D /* RNNExtraView.h */,
 				B3E7B5891CC2AC0600A0062D /* RNNExtraView.m */,
-				51E712E320238B5F00DB9BC0 /* RNNExtraViewManager.h */,
-				51E712E120238B5500DB9BC0 /* RNNExtraViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,7 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E7B58A1CC2AC0600A0062D /* RNNExtraView.m in Sources */,
-				51E712E220238B5500DB9BC0 /* RNNExtraViewManager.m in Sources */,
 				51E712E0202383C400DB9BC0 /* RNNExtraViewWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
