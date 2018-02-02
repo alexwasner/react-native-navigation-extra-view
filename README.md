@@ -4,8 +4,8 @@
 #### iOS mostly working. Android TODO
 
 # react-native-navigation-extra-view
-
-[https://github.com/wix/react-native-navigation](React Native Navigation by Wix) is the best library I have found as a navigation solution. The biggest limitation is when  you want to render a global element outside of the navigation stack. This allows you to render that element and still have it communicate with the rest of your app.
+https://github.com/alexwasner/react-native-navigation-extra-view
+[React Native Navigation by Wix](https://github.com/wix/react-native-navigation) is the best library I have found as a navigation solution. The biggest limitation is when  you want to render a global element outside of the navigation stack. This allows you to render that element and still have it communicate with the rest of your app.
 
 ## Getting started
 
