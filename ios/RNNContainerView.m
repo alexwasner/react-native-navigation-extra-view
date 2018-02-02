@@ -1,9 +1,9 @@
 //
-//  RCCTitleView.m
-//  ReactNativeNavigation
+//  RNContainerView.m
+//  RNNExtraView
 //
-//  Created by Ran Greenberg on 26/04/2017.
-//  Copyright © 2017 artal. All rights reserved.
+//  Created by alexwasner on 2/1/18.
+//  Copyright © 2018 Facebook. All rights reserved.
 //
 
 #import "RNContainerView.h"

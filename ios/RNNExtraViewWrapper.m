@@ -10,7 +10,6 @@
 
 @interface RNNExtraViewWrapper ()
 @property (nonatomic, strong) UIView *subView;
-@property (nonatomic, strong) NSString *subViewAlign;
 @end
 
 @implementation RNNExtraViewWrapper
