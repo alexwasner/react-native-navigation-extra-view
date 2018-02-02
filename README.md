@@ -60,7 +60,7 @@ import RNNExtraView from 'react-native-navigation-extra-view';
         navigatorStyle: {...}
       }
     }).then(()=>{
-      ExtraView.init('Test')
+      RNNExtraView.init('Test')
     });
 ```
   
