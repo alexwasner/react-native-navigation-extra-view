@@ -1,11 +1,8 @@
 import { processColor, NativeModules, AppRegistry } from 'react-native';
 import React, { Component } from 'react';
-// import React from 'react'
-import flattenArray from './js/flattenArray';
 const _resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSource');
 const { RNNExtraView } = NativeModules;
 const registeredViews = {};
-const ExtraViewClass = {name: 'ExtraView'}
 
 let ExtraView = {
 	registerComponent(viewId, generator, store = undefined, Provider = undefined, options = {}){
@@ -27,7 +24,7 @@ function _registerComponentWithoutStore(viewId, generator) {
   const generatorWrapper = ()=>{
     const InternalComponent = generator();
     if (!InternalComponent) {
-      // console.error(`Navigation: ${viewId} registration result is 'undefined'`);
+      console.error(`Navigation: ${viewId} registration result is 'undefined'`);
     }
     return class extends Component {
       render() {
